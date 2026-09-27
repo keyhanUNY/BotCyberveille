@@ -1,0 +1,9 @@
+cat > .gitignore << 'EOF'
+seen.json
+daily_buffer.json
+dedup.json
+bot.log
+*.pyc
+__pycache__/
+venv/
+EOF
