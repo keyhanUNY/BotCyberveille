@@ -1,0 +1,48 @@
+{
+  "webhook_url": "REMPLACE_PAR_TON_WEBHOOK_DISCORD",
+  "webhook_recap_url": "REMPLACE_PAR_TON_WEBHOOK_CANAL_RECAP",
+  "seen_file": "seen.json",
+  "dedup_file": "dedup.json",
+
+  "libretranslate_url": "http://localhost:5000",
+  "libretranslate_api_key": "",
+
+  "sources_file": "sources.json",
+
+  "daily_summary": {
+    "enabled": true,
+    "hour": 8,
+    "top_n": 5
+  },
+
+  "criticality": {
+    "critical_keywords": [
+      "critical", "critique", "ransomware", "zero-day", "0-day",
+      "actively exploited", "exploitation active", "cyberattaque",
+      "cyberattack", "emergency patch", "patch d'urgence",
+      "worm", "ver informatique", "wiperware"
+    ],
+    "high_keywords": [
+      "high", "élevé", "remote code execution", "rce", "privilege escalation",
+      "élévation de privilèges", "authentication bypass", "contournement",
+      "data breach", "fuite de données", "backdoor", "botnet"
+    ],
+    "colors": {
+      "CRITICAL": 15158332,
+      "HIGH":     15105570,
+      "MEDIUM":   3066993,
+      "INFO":     3447003
+    },
+    "everyone_on": ["CRITICAL"]
+  },
+
+  "keywords": [
+    "ransomware", "malware", "phishing", "exploit", "CVE",
+    "faille", "patch", "vulnérabilité", "vulnerability",
+    "cyberattaque", "cyberattack", "breach", "leak",
+    "zero-day", "0-day", "windows update", "mise à jour",
+    "backdoor", "botnet", "DDoS", "intrusion", "compromis",
+    "critical", "critique", "alert", "alerte", "hacked", "piraté",
+    "remote code execution", "rce", "privilege escalation"
+  ]
+}

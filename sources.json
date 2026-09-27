@@ -1,0 +1,32 @@
+[
+  {
+    "name": "The Hacker News",
+    "url": "https://feeds.feedburner.com/TheHackersNews",
+    "emoji": "🌐",
+    "enabled": true
+  },
+  {
+    "name": "Bleeping Computer",
+    "url": "https://www.bleepingcomputer.com/feed/",
+    "emoji": "💻",
+    "enabled": true
+  },
+  {
+    "name": "CERT-FR",
+    "url": "https://www.cert.ssi.gouv.fr/feed/",
+    "emoji": "🇫🇷",
+    "enabled": true
+  },
+  {
+    "name": "Microsoft Security",
+    "url": "https://msrc.microsoft.com/blog/feed",
+    "emoji": "🪟",
+    "enabled": true
+  },
+  {
+    "name": "IT Connect",
+    "url": "https://www.it-connect.fr/feed/",
+    "emoji": "🔧",
+    "enabled": true
+  }
+]
